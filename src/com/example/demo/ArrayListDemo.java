@@ -9,7 +9,9 @@ public class ArrayListDemo {
 		list.add("Nilesh");
 		list.add("Nutan");
 		list.add("Nikhil");
-		System.out.println(list);
+		 for (String i:list) {
+			 System.out.println(i);
+		 }
 
 	}
 }
